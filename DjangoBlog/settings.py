@@ -273,6 +273,17 @@ LOGGING = {
     }
 }
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'djangoblog',
+        'USER': 'root',
+        'PASSWORD': 'test',
+        'HOST': '10.233.26.200',
+        'PORT': 3306,
+    }
+}
+
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
